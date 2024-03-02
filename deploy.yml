@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-k8s
+  labels:
+    app: test-git-actions
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: test-git-actions
+  template:
+    metadata:
+      labels:
+        app: test-git-actions
+    spec:
+      containers:
+      - name: simple-flask-app
+        image: devopswithsam/githubactions:4
+        ports:
+        - containerPort: 5000
