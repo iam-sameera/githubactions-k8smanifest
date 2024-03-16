@@ -6,7 +6,6 @@ Welcome to the GitHub Actions Kubernetes Manifest repository! This repository co
 
 In this repository, you'll find deployment and service manifests that define how applications are deployed and exposed within a Kubernetes cluster. These manifests are managed and updated automatically through GitHub Actions workflows, ensuring continuous integration and delivery.
 
-
 For more information on setting up a complete CI/CD pipeline with Docker, Kubernetes, GitHub Actions, and ArgoCD, check out our comprehensive guide on Medium:
 [Complete CI/CD Pipeline GitOps Project with Docker, Kubernetes, GitHub Actions, and ArgoCD - Step by Step](https://medium.com/@sameeradissanayaka/complete-ci-cd-pipeline-gitops-project-with-docker-kubernetes-githubactions-and-argocd-step-by-step-cebf766c9d42)
 
